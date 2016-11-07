@@ -31,7 +31,7 @@ public class Starter {
         System.out.println("Method one \n");
 
 
-        LiftOff liftOff = new LiftOff(10);
+        LiftOff liftOff = new LiftOff(1);
         liftOff.run();
 
         /**
