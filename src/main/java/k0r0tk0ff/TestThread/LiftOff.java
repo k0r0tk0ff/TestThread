@@ -1,5 +1,7 @@
 package k0r0tk0ff.TestThread;
 
+import java.util.ArrayList;
+
 /**
  * @(#)LiftOff.java
  *
@@ -18,6 +20,7 @@ package k0r0tk0ff.TestThread;
  */
 public class LiftOff implements Runnable {
     protected int countDown = 10;
+    protected ArrayList<String> array = new ArrayList<>();
 
     /**
      * Theese variable need to understand,
@@ -40,6 +43,7 @@ public class LiftOff implements Runnable {
     public void run(){
         while(countDown-- > 0){
             System.out.println(status());
+            array.add(status());
             Thread.yield();
         }
     }
