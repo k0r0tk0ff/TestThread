@@ -19,7 +19,7 @@ import org.hamcrest.*;
  * @date		07/11/2016
  * @version		1
  *
- * Test methods for
+ * Test
  *
  */
 
